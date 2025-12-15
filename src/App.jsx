@@ -1,5 +1,4 @@
 import "./App.css";
-import { FaCalculator, FaTable } from "react-icons/fa";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
@@ -7,7 +6,7 @@ import Home from "./components/Home";
 import Header from "./components/Header";
 import About from "./components/About";
 import Contact from "./components/Contact";
-import ProjectInfo from "./pages/ProjectInfo";
+
 
 const App = () => {
   return (
