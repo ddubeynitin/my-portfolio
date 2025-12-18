@@ -17,7 +17,7 @@ const App = () => {
             <div className="layout-content-container flex flex-col w-full max-w-6xl flex-1 px-4 sm:px-8 md:px-10 ">
             
                 <Header />
-              
+
               <main className="grow pt-14">
                 <section className="py-20 sm:py-32" id="home">
                   <Home />
