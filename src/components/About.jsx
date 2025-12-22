@@ -1,5 +1,6 @@
 import React from "react";
 import { FaDownload } from "react-icons/fa";
+import resume from "../assets/Nitin_Dubey_Resume.pdf";
 
 const About = () => {
   return (
@@ -33,7 +34,11 @@ const About = () => {
             to use.
           </p>
 
-          <button className="w-50 h-15 text-white text-lg border-2  border-yellow-500 font-bold p-2 rounded-full flex gap-2 justify-center items-center mt-5 transition hover:bg-yellow-500 hover:border-0 hover:text-black"><FaDownload/> Resume </button>
+          <a href={resume} download target="_blank" rel="noopener noreferrer">
+            <button className="w-50 h-15 text-white text-lg border-2  border-yellow-500 font-bold p-2 rounded-full flex gap-2 justify-center items-center mt-5 transition hover:bg-yellow-500 hover:border-0 hover:text-black">
+              <FaDownload/> Resume
+            </button>
+          </a>
         </div>
       </div>
     </div>
