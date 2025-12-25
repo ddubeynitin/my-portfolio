@@ -3,6 +3,7 @@ import { FaDownload } from "react-icons/fa";
 import resume from "../assets/Nitin_Dubey_Resume.pdf";
 
 const About = () => {
+
   return (
     <div>
       <h2 className="text-white text-3xl font-bold leading-tight tracking-[-0.015em] pb-8 text-center">
