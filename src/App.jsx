@@ -10,6 +10,7 @@ import Contact from "./components/Contact";
 import QuoteCard from "./components/QuoteCard";
 import axios from "axios";
 import { BlinkBlur } from "react-loading-indicators";
+import api_key from "./services/quote";
 
 const App = () => {
   const [showQuote, setShowQuote] = useState(true);
@@ -23,7 +24,7 @@ const App = () => {
       hasFetchedQuote.current = true;
       axios
         .get("https://api.api-ninjas.com/v2/randomquotes?category=happiness", {
-          headers: { "X-Api-Key": "odhBOHh6Fx2OBj+rod+r1A==AkZWByqB8mdWjfxK" },
+          headers: { "X-Api-Key": api_key },
         })
         .then((response) => {
           console.log(response);
