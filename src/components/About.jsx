@@ -13,9 +13,9 @@ const About = () => {
         <div className="md:col-span-2 w-full @container">
           <div className="w-full gap-1 overflow-hidden bg-background-dark @[480px]:gap-2 aspect-square rounded-xl flex">
             <div
-              className="w-full bg-cover scale-150 bg-no-repeat aspect-auto rounded-xl flex-1 bg-[url('./assets/my-png-img.png')] "
+              className="w-full bg-cover scale-100 bg-no-repeat aspect-auto rounded-xl flex-1 bg-[url('./assets/profile-img.jpg')] "
               data-alt="A professional headshot of Nitin Dubey"
-            />
+            />``
             
           </div>
         </div>
