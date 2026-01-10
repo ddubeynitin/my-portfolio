@@ -10,17 +10,17 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="flex flex-col bg-white/5 rounded-xl overflow-hidden group">
           <div
-            className="aspect-video bg-cover bg-center bg-[url('./assets/real-time-chat.jpg')]"
+            className="aspect-video bg-cover bg-center bg-[url('./assets/url-shortener-poster.png')]"
             data-alt="Real-time chat application interface"
           />
           <div className="p-6 grow flex flex-col">
             <h3 className="text-white text-xl font-bold">
-              Real Time Chat Application
+              URL Shortener
             </h3>
             <p className="text-white/70 text-sm mt-2 grow">
-              A real-time chat application built with React and Socket.io,
-              featuring private messaging, group chats, and online status
-              indicators.
+              A URL shortening service that allows users to create and manage
+              shortened links, built with React for the frontend and Node.js with
+              Express.js for the backend.
             </p>
             <div className="flex flex-wrap gap-2 mt-4">
               <span className="text-xs font-bold text-white text-shadow-2xs text-shadow-black bg-cyan-600 px-2 py-1 rounded-full">
@@ -42,7 +42,7 @@ const Projects = () => {
             <div className="mt-6">
               <a
                 className="text-white font-bold text-sm hover:text-blue-500 transition-colors"
-                href="projectInfo.html"
+                href="https://github.com/ddubeynitin/url-shortener.git" target="_blank"
               >
                 {"<"}View{"/>"}
               </a>
