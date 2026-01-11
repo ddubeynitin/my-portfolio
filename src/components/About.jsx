@@ -1,6 +1,6 @@
 import React from "react";
 import { FaNewspaper } from "react-icons/fa";
-import resume from "../assets/Nitin_Dubey_Resume.pdf";
+import resume from "../assets/Nitin_Dubey_Resume_updated.pdf";
 
 const About = () => {
 
