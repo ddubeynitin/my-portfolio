@@ -43,9 +43,12 @@ const App = () => {
       <div className="min-h-screen flex flex-col relative bg-background-dark overflow-x-hidden">
         <div style={{ position: "absolute", inset: 0, zIndex: -1 }}>
           <Grainient
-            color1="#FF9FFC"
-            color2="#5227FF"
-            color3="#B19EEF"
+            color1="#B5A319"
+            color2="#CB0C5F"
+            color3="#1B1A1E"
+            // color1="#FF9FFC"
+            // color2="#5227FF"
+            // color3="#B19EEF"
             timeSpeed={0.50}
             colorBalance={0.5}
             warpStrength={1}
@@ -61,7 +64,7 @@ const App = () => {
             grainAnimated={false}
             contrast={1.5}
             gamma={1}
-            saturation={0}
+            saturation={0.5}
             centerX={0}
             centerY={0}
             zoom={0.9}

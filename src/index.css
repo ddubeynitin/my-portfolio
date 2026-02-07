@@ -1,7 +1,13 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-@custom-variant dark (&:is(.dark *));
+@theme{
+    --font-poppins: "Poppins", sans-serif;
+    --font-barlow:  "Barlow", sans-serif;
+    --font-bebas:  "Bebas Neue", sans-serif;
+    --font-ubuntu: "Ubuntu", sans-serif;
+    --font-bungee: "Bungee", sans-serif;
+}
 
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
@@ -41,7 +47,11 @@
   --color-sidebar-accent: var(--sidebar-accent);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
-  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-ring: var(--sidebar-ring);  
+
+  /* --font-barlow:  "Barlow", sans-serif;
+  --font-bebas:  "Bebas Neue", sans-serif; */
+
 }
 
 :root {
@@ -122,3 +132,24 @@
     color: black;
   }
 }
+
+/* //scrollbar styles */
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  scrollbar-width: thin;
+  display: none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: transparent ;
+  border-radius: 4px;
+}
+
