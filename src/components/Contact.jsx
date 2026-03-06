@@ -7,7 +7,7 @@ const Contact = () => {
         {"<"}Contact{" />"}
       </h2>
       <div className="flex flex-col items-center justify-center">
-        <p className="text-white/70 text-sm mb-4">
+        <p className="text-white/70 text-sm mb-4 text-center">
           Feel free to reach out to me via email at{" "}
           <a
             href="mailto:ddubeynitin30@gmail.com"
@@ -15,14 +15,7 @@ const Contact = () => {
           > Contact Me </a>
           or connect with me on LinkedIn.
         </p>
-        <div className="flex gap-4">
-          <a
-            href="mailto:https://www.linkedin.com/in/nitin-dubey-1a862a282" 
-            className="text-white hover:text-blue-400 transition-colors"
-          >
-            LinkedIn
-          </a>
-        </div>
+       
       </div>
     </div>
         

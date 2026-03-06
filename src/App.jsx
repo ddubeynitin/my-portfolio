@@ -12,6 +12,7 @@ import axios from "axios";
 import { BlinkBlur } from "react-loading-indicators";
 import api_key from "./services/quote";
 import Grainient from "./components/Grainient";
+import Education from "./components/Education";
 
 const App = () => {
   const [showQuote, setShowQuote] = useState(true);
@@ -81,6 +82,9 @@ const App = () => {
               </section>
               <section className="py-16 sm:py-24" id="about">
                 <About />
+              </section>
+              <section className="py-16 sm:py-24" id="education">
+                <Education />
               </section>
               <section className="py-16 sm:py-24" id="skills">
                 <Skills />

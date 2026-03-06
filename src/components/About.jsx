@@ -1,6 +1,6 @@
 import React from "react";
 import { FaNewspaper } from "react-icons/fa";
-import resume from "../assets/docs/Nitin_Dubey_Resume.pdf";
+import resume from "../assets/docs/Nitin_Dubey_Resume_v0.1.pdf";
 import DrawOutlineButton from "./Button/DrawOutlineButton";
 import { GrDocumentUser } from "react-icons/gr";
 

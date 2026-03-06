@@ -9,6 +9,7 @@ import {
   FaList,
   FaUser,
   FaPhone,
+  FaGraduationCap,
 } from "react-icons/fa";
 
 const Header = () => {
@@ -58,6 +59,12 @@ const Header = () => {
               href="#skills"
             >
               Skills
+            </a>
+            <a
+              className="text-white text-shadow-2xs text-shadow-black hover:text-white transition-colors text-lg  font-semibold leading-normal"
+              href="#education"
+            >
+              Education
             </a>
             <a
               className="text-white text-shadow-2xs text-shadow-black hover:text-white transition-colors text-lg  font-semibold leading-normal"
@@ -140,6 +147,14 @@ const Header = () => {
                   className="flex justify-start items-center gap-2 p-2 hover:text-white hover:bg-blue-500 hover:rounded-md"
                 >
                   <FaCode /> Skills
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#education"
+                  className="flex justify-start items-center gap-2 p-2 hover:text-white hover:bg-blue-500 hover:rounded-md"
+                >
+                  <FaGraduationCap /> Education
                 </a>
               </li>
               <li>

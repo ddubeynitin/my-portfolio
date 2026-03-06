@@ -1,5 +1,5 @@
 import React from "react";
-import { FaCode } from "react-icons/fa";
+import { FaCode, FaLink } from "react-icons/fa";
 
 const Projects = () => {
   return (
@@ -10,8 +10,54 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="flex flex-col bg-white/5 rounded-xl overflow-hidden group">
           <div
-            className="aspect-video bg-cover bg-center bg-[url('./assets/url-shortener-poster.png')]"
-            data-alt="Real-time chat application interface"
+            className="aspect-video bg-cover bg-center bg-[url('./assets/images/projectImg/lawyer-appointment-poster.jpeg')]"
+            data-alt="Lawyer Appointment Booking System interface"
+          />
+          <div className="p-6 grow flex flex-col">
+            <h3 className="text-white text-xl font-bold">
+              Lawyer Appointment Booking System + AI
+            </h3>
+            <p className="text-white/70 text-sm mt-2 grow">
+              A web application that allows users to book appointments with lawyers, built with React for the frontend and Node.js with Express.js for the backend. The system also integrates AI to provide personalized lawyer recommendations based on user preferences and case details.
+            </p>
+            <div className="flex flex-wrap gap-2 mt-4">
+              <span className="text-xs font-bold text-white text-shadow-2xs text-shadow-black bg-cyan-600 px-2 py-1 rounded-full">
+                React
+              </span>
+              <span className="text-xs font-bold text-white text-shadow-2xs text-shadow-black bg-purple-600 px-2 py-1 rounded-full">
+                Tailwind Css
+              </span>
+              <span className="text-xs font-bold text-white text-shadow-2xs text-shadow-black bg-yellow-600 px-2 py-1 rounded-full">
+                Express.js
+              </span>
+              <span className="text-xs font-bold text-white text-shadow-2xs text-shadow-black bg-green-600 px-2 py-1 rounded-full">
+                Node.js
+              </span>
+              <span className="text-xs font-bold text-white text-shadow-2xs text-shadow-black bg-emerald-600 px-2 py-1 rounded-full">
+                MongoDB
+              </span>
+            </div>
+            <div className="mt-6 flex justify-around items-center gap-4">
+              <a
+                className="text-white font-bold text-sm hover:text-blue-500 transition-colors"
+                href="https://github.com/ddubeynitin/lawyer-appointment-booking-system" target="_blank"
+              >
+                {"<"}Code{"/>"}
+              </a>
+              <a
+                className="text-white font-bold text-sm hover:text-blue-500 border border-white/30 rounded px-4 py-2 transition-colors"
+                
+              >
+                <FaLink className="inline-block mr-1" />
+                  Live Demo Soon..
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col bg-white/5 rounded-xl overflow-hidden group">
+          <div
+            className="aspect-video bg-cover bg-center bg-[url('./assets/images/projectImg/url-shortener-poster.png')]"
+            data-alt="URL Shortener application interface"
           />
           <div className="p-6 grow flex flex-col">
             <h3 className="text-white text-xl font-bold">
@@ -39,51 +85,24 @@ const Projects = () => {
                 MongoDB
               </span>
             </div>
-            <div className="mt-6">
+            <div className="mt-6 flex justify-around items-center gap-4">
               <a
                 className="text-white font-bold text-sm hover:text-blue-500 transition-colors"
                 href="https://github.com/ddubeynitin/url-shortener.git" target="_blank"
               >
-                {"<"}View{"/>"}
+                {"<"}Code{"/>"}
               </a>
-            </div>
-          </div>
-        </div>
-        <div className="flex flex-col bg-white/5 rounded-xl overflow-hidden group">
-          <div
-            className="aspect-video bg-cover bg-center bg-[url('./assets/tic-tac-toe-img.jpg')]"
-            data-alt="Tic-Tac-Toe game board"
-          />
-          <div className="p-6 grow flex flex-col">
-            <h3 className="text-white text-xl font-bold">
-              Tic-Tac-Toe
-            </h3>
-            <p className="text-white/70 text-sm mt-2 grow">
-              A classic Tic-Tac-Toe game built with HTML, CSS, and JavaScript,
-              featuring a responsive design and an intuitive user interface for
-              an engaging gaming experience.
-            </p>
-            <div className="flex flex-wrap gap-2 mt-4">
-              <span className="text-xs font-bold text-white bg-orange-600 text-shadow-2xs text-shadow-black px-2 py-1 rounded-full">
-                HTML
-              </span>
-              <span className="text-xs font-bold text-white bg-blue-600 text-shadow-2xs text-shadow-black px-2 py-1 rounded-full">
-                CSS
-              </span>
-              <span className="text-xs font-bold text-white bg-yellow-500 text-shadow-2xs text-shadow-black px-2 py-1 rounded-full">
-                JavaScript
-              </span>
-            </div>
-            <div className="mt-6">
               <a
-                className="text-white font-bold text-sm hover:text-blue-500 transition-colors "
-                href="https://github.com/ddubeynitin/Tic-Tac-Toe.git" target="_blank"
+                className="text-white font-bold text-sm hover:text-blue-500 border border-white/30 rounded px-4 py-2 transition-colors"
+                href="https://urly-short.vercel.app" target="_blank"
               >
-                {"<"}View{"/>"}
+                <FaLink className="inline-block mr-1" />
+                  Live Demo
               </a>
             </div>
           </div>
         </div>
+        
       </div>
     </div>
   );
